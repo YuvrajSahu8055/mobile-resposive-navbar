@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my shop</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body class="position-relative">
+    <!-- header -->
+    <header class="container-fluid d-flex align-items-center  
+    justify-content-between px-3">
+        <div class="d-flex gap-3 align-items-center">
+            <div id="menu-icon" class="d-md-none fs-3"><i class="fa-solid fa-bars"></i></div>
+
+            <!-- nav bar -->
+            <nav class="d-flex  gap-3 ">
+                <div class="logo fs-3 fw-bold">MyShop</div>
+                <ul class="categories d-none d-md-flex gap-3 my-auto">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./pages/men.html">Men</a></li>
+                    <li><a href="./pages/women.html">Women</a></li>
+                    <li><a href="./pages/child.html">Child</a></li>
+                </ul>
+
+
+            </nav>
+            <!-- header user section -->
+        </div>
+        <div class="user-box d-flex align-items-center gap-3">
+            <div class="whislist">whislist</div>
+            <div class="account">account</div>
+            <div class="cart">cart</div>
+        </div>
+
+    </header>
+    <!-- ye search box -->
+    <div class="search-box w-100 px-3 mt-3 ">
+        <input class="w-100 border rounded-5 py-2 px-3" type="text" 
+        placeholder="search">
+    </div>
+    <!-- mobile menu  -->
+    <div class="h-menu h-menu-show d-lg-none z-1 w-75 vh-100 bg-info
+     position-absolute top-0 ">
+        <div class="m-logo w-100 d-flex align-items-end">
+            <span>MyShop</span>
+        </div>
+
+        <ul class="m-menu categories">
+            <li class="mt-4"><a href="#">Home</a></li>
+            <li class="mt-4"><a href="./pages/men.html">Men</a></li>
+            <li class="mt-4"><a href="./pages/women.html">Women</a></li>
+            <li class="mt-4"><a href="./pages/child.html">Child</a></li>
+
+        </ul>
+
+
+
+
+    </div>
+    <div class="h-bg vh-100 w-100 bg-dark d-none position-absolute top-0 start-0"></div>
+
+
+
+
+
+
+    <script src="./bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
